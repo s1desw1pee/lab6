@@ -1,0 +1,36 @@
+{
+    "name": "taimers",
+    "version": "2.0.0",
+    "description": "",
+    "homepage": "https://s1desw1pee.github.io/taimers",
+    "scripts": {
+      "deploy": "gh-pages -d dist",
+      "predeploy": "npm run build",
+      "start": "parcel src/*.html",
+      "build": "parcel build src/*.html --public-url /taimers/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/s1desw1pee/taimers.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/s1desw1pee/taimers/issues"
+    },
+    "dependencies": {
+      "flatpickr": "^4.6.13",
+      "modern-normalize": "^1.1.0",
+      "notiflix": "^3.2.8"
+    },
+    "devDependencies": {
+      "@parcel/transformer-sass": "^2.6.0",
+      "parcel": "^2.6.0",
+      "parcel-reporter-clean-dist": "^1.0.4",
+      "posthtml-include": "^1.7.4",
+      "gh-pages": "^6.1.0"
+    },
+    "browserslist": "> 0.5%, last 2 versions, not dead"
+  }
+  
