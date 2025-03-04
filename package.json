@@ -1,23 +1,23 @@
 {
-    "name": "taimers",
+    "name": "lab6",
     "version": "2.0.0",
     "description": "",
-    "homepage": "https://s1desw1pee.github.io/taimers",
+    "homepage": "https://s1desw1pee.github.io/lab6",
     "scripts": {
       "deploy": "gh-pages -d dist",
       "predeploy": "npm run build",
       "start": "parcel src/*.html",
-      "build": "parcel build src/*.html --public-url /taimers/"
+      "build": "parcel build src/*.html --public-url /lab6/"
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/s1desw1pee/taimers.git"
+      "url": "git+https://github.com/s1desw1pee/lab6.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/s1desw1pee/taimers/issues"
+      "url": "https://github.com/s1desw1pee/lab6/issues"
     },
     "dependencies": {
       "flatpickr": "^4.6.13",
